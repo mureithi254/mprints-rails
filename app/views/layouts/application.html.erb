@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MprintsRails</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'stye.css' %>
+    <%= stylesheet_link_tag 'owl.carousel.css' %>
+    <%= stylesheet_link_tag 'flexslider.css' %>
+    <%= stylesheet_link_tag 'chocolat.css' %>
+
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%=  javascript_include_tag 'jquery.chocolat.js' %>
+    <%=  javascript_include_tag 'jquery.flexslider.js' %>
+    <%=  javascript_include_tag 'jquery.hoverdir.js' %>
+    <%=  javascript_include_tag 'modernizr.custom.97074.js' %>
+    <%=  javascript_include_tag 'owl.carousel.js' %>
+    <%=  javascript_include_tag 'responsiveslides.min.js' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>

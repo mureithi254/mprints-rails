@@ -1,0 +1,119 @@
+<!--header-->
+	<div class="banner ban">
+		<div class="container">
+			<div class="header">
+				<div class="header-left">
+					<h1><a href="index.html">MPrints </a></h1>
+				</div>
+				<!-- #push_sidebar -->
+				<div class="top-nav">
+					<span class="menu"><%= image_tag("menu.png", :alt=>"") %></span>
+					<ul class="nav1">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+					<div class="clearfix"> </div>
+					<!-- script-for-menu -->
+					 <script>
+					   $( "span.menu" ).click(function() {
+						 $( "ul.nav1" ).slideToggle( 300, function() {
+						 // Animation complete.
+						  });
+						 });
+					</script>
+					<!-- /script-for-menu -->
+				</div>
+				<!-- /#push_sidebar -->
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--header-->
+	<!--content-->
+		<div class="content">
+			<!--contact-->
+			<div class="contact-w3l">
+				<div class="container">
+					<h2 class="tittle">Contact Us</h2>
+					<div class="contact-grids">
+						<div class="col-md-6 contact-grid">
+							<h4>Your Message</h4>
+							<span>At MPrints we value your feedback to help us serve you better.For any complaints or compliments or even order a service.</span>
+							<form action="#" method="post">
+								<label>Name</label>
+								<input type="text" name="Name" placeholder="Your name" required>
+								<div class="row">
+									<div class="col-md-6 row-grid">
+									<label>Email</label>
+									<input type="text" name="Email" placeholder="Email address" required>
+									</div>
+										<div class="col-md-6 row-grid">
+										<label>Phone</label>
+									<input type="text" name="Phone" placeholder="Phone number" required>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<label>Subject</label>
+								<input type="text" name="Subject" placeholder="Subject" required>
+								<div class="row1">
+								<label>Message</label>
+								<textarea placeholder="Message" name="Message" ></textarea>
+								</div>
+								<input type="submit" value="Send message">
+							</form>
+						</div>
+						<div class="col-md-6 contact-grid">
+							<div class="google-map wow fadeInDownBig animated animated" data-wow-delay="0.4s">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2058258.3777593954!2d-3.9359441911171276!3d53.19403993353597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurants+uk!5e0!3m2!1sen!2sin!4v1465276794895"  frameborder="0" style="border:0" allowfullscreen></iframe>
+							</div>
+							<div class="contact-bottom">
+								<h4>Get Connected</h4>
+								<p>Lorem Ipsum is inting and typesetting in simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+				<!--contact-->
+		</div>		
+		<!--content-->
+			<!--footer-->
+				<div class="footer-agileinfo">
+					<div class="container">
+						<h3>Get In Touch</h3>
+						<p class="para">We love people and we value your feedback at Mprints.</p>
+						<div class="footer-grids">
+							<div class="col-md-6 footer-grid">
+								<div class="col-sm-2 footer-left">
+									<i class="glyphicon glyphicon-pencil" aria-hidden="true"></i>
+								</div>
+								<div class="col-sm-10 footer-right">
+									<h4>Information</h4>
+									<p>We spare no expense to ensure everything runs smoothly.We color your life.</p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="col-md-6 footer-grid">
+								<div class="col-sm-2 footer-left">
+									<i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
+								</div>
+								<div class="col-sm-10 footer-right">
+									<h4>Newsletter</h4>
+									<p>Sign-Up to our newsletters to receive daily or trending services at MPrints.</p>
+									<form action="#" method="post">
+										<input type="text" name="Your email" value="Your email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your email';}" required="">
+										<input type="submit" value="Subscribe">
+									</form>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<p class="copy-right">&copy; 2017 MPrints . All rights reserved | Design by <a href="#">Tribian-Tech Ltd</a></p>
+					</div>
+				</div>
+				<!--footer-->

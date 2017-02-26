@@ -9,11 +9,11 @@
 				<div class="top-nav">
 					<span class="menu"><%= image_tag("menu.png", :alt=>"") %></span>
 					<ul class="nav1">
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="services.html">Services</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li class="active"><%= link_to 'Home','home_index_path' %></li>
+						<li><%= link_to 'About','home_about' %></li>
+						<li><%= link_to 'Services','home_services' %></li>
+						<li><%= link_to 'Gallery','home_gallery' %></li>
+						<li><%= link_to 'Contact','home_contact' %></li>
 					</ul>
 					<div class="clearfix"> </div>
 					<!-- script-for-menu -->

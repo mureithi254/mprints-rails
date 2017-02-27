@@ -469,7 +469,7 @@ p.copy-right a:hover{
 /*--footer--*/
 /*--about--*/
 .ban {
-    background: url(./banner.jpg) 0px 0px no-repeat;
+    background: url(banner.jpg) 0px 0px no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -529,7 +529,7 @@ p.copy-right a:hover{
 .social-icons a i {
     width: 32px;
     height: 32px;
-    background:#f47721 url(./img-sprite.png) no-repeat 0px 0px;
+    background:#f47721 url(img-sprite.png) no-repeat 0px 0px;
     display: inline-block;
 	margin:0 0.2em;
 	transition: 0.5s all;
@@ -540,7 +540,7 @@ p.copy-right a:hover{
 	 border-radius: 6px 6px 5px 10px;
 }
 .social-icons i.icon:hover {
-  background: #007EA3    url(./img-sprite.png) no-repeat 0px 0px;
+  background: #007EA3    url(img-sprite.png) no-repeat 0px 0px;
 }
 .social-icons i.icon {
     background-position: 0px 0px;
@@ -549,19 +549,19 @@ p.copy-right a:hover{
     background-position: -32px 0px;
 }
 .social-icons i.icon1:hover {
-  background: #007EA3    url(./img-sprite.png) no-repeat -32px 0px;
+  background: #007EA3    url(img-sprite.png) no-repeat -32px 0px;
 }
 .social-icons i.icon2 {
     background-position: -64px 0px;
 }
 .social-icons i.icon2:hover {
-  background: #007EA3    url(./img-sprite.png) no-repeat -64px 0px;
+  background: #007EA3    url(img-sprite.png) no-repeat -64px 0px;
 }
 .social-icons i.icon3 {
     background-position: -96px 0px;
 }
 .social-icons i.icon3:hover {
-  background: #007EA3    url(./img-sprite.png) no-repeat -96px 0px;
+  background: #007EA3    url(img-sprite.png) no-repeat -96px 0px;
 }
 .why-grid iframe {
     width: 100%;
@@ -1265,11 +1265,11 @@ ul.nav1 {
     width: 64%;
 }
 .banner {
-    background: url(./banner.jpg) -75px 0px no-repeat;
+    background: url(banner.jpg) -75px 0px no-repeat;
     background-size: cover;	
 }
 .ban {
-    background: url(./banner.jpg) 0px 0px no-repeat;
+    background: url(banner.jpg) 0px 0px no-repeat;
     background-size: cover;
 	 min-height: 80px;
 }
@@ -1295,12 +1295,12 @@ ul.nav1 {
     width: 64%;
 }
 .banner {
-    background: url(./banner.jpg) -75px 0px no-repeat;
+    background: url(banner.jpg) -75px 0px no-repeat;
     background-size: cover;
     min-height: 500px;
 }
 .ban {
-    background: url(./banner.jpg) 0px 0px no-repeat;
+    background: url(banner.jpg) 0px 0px no-repeat;
     background-size: cover;
 	min-height: 40px;
 }
@@ -1343,7 +1343,7 @@ h3.tittle, h3.tittle1, .footer-agileinfo h3 {
 }
 @media(max-width:667px){
 .banner {
-    background: url(./banner.jpg) -133px 0px no-repeat;
+    background: url(banner.jpg) -133px 0px no-repeat;
     background-size: cover;	
 }
 .caption {
@@ -1384,7 +1384,7 @@ h3.tittle, h3.tittle1, .footer-agileinfo h3 {
 	margin: 7em 0;
 }
 .ban {
-    background: url(./banner.jpg) 0px 0px no-repeat;
+    background: url(banner.jpg) 0px 0px no-repeat;
     background-size: cover;
     min-height: 50px !important;
 }
@@ -1573,7 +1573,7 @@ ul.nav1 {
     width: 100%;
 }
 .ban {
-    background: url(./banner.jpg) 0px 0px no-repeat;
+    background: url(banner.jpg) 0px 0px no-repeat;
     background-size: cover;
     min-height: 80px !important;
 }
@@ -1593,7 +1593,7 @@ ul.nav1 {
     font-size: 1.5em;
 }
 .banner {
-    background: url(./banner.jpg) -280px 0px no-repeat;
+    background: url(banner.jpg) -280px 0px no-repeat;
     background-size: cover;
 }
 h2.tittle {
@@ -1607,7 +1607,7 @@ h3.tittle, h3.tittle1, .footer-agileinfo h3 {
 
 }
 .ban {
-    background: url(./banner.jpg) 0px 0px no-repeat;
+    background: url(banner.jpg) 0px 0px no-repeat;
     background-size: cover;
     min-height: 75px !important;
 }

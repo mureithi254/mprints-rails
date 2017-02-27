@@ -33,7 +33,7 @@ p{
 	-ms-transition:.5s ease-in-out;
 }
 .banner{
-	background:url(./banner.jpg) 0px 0px no-repeat;
+	background:url(banner.jpg) 0px 0px no-repeat;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;

@@ -12,6 +12,8 @@ Rails.application.config.assets.precompile += %w( flexslider.css )
 
    #Additional js assets
 Rails.application.config.assets.precompile += %w( jquery.chocolat.js )
+Rails.application.config.assets.precompile += %w( bootstrap.js )
+Rails.application.config.assets.precompile += %w( jquery-1.11.1.min.js )
 Rails.application.config.assets.precompile += %w( jquery.flexslider.js )
 Rails.application.config.assets.precompile += %w( jquery.hoverdir.js )
 Rails.application.config.assets.precompile += %w( modernizr.custom.97074.js )

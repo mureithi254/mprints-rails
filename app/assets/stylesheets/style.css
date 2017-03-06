@@ -33,7 +33,7 @@ p{
 	-ms-transition:.5s ease-in-out;
 }
 .banner{
-	background:url(banner.jpg) 0px 0px no-repeat;
+	background:url(newbanner.jpg) 0px 0px no-repeat;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -469,7 +469,7 @@ p.copy-right a:hover{
 /*--footer--*/
 /*--about--*/
 .ban {
-    background: url(banner.jpg) 0px 0px no-repeat;
+    background: url(newbanner.jpg) 0px 0px no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1265,11 +1265,11 @@ ul.nav1 {
     width: 64%;
 }
 .banner {
-    background: url(banner.jpg) -75px 0px no-repeat;
+    background: url(newbanner.jpg) -75px 0px no-repeat;
     background-size: cover;	
 }
 .ban {
-    background: url(banner.jpg) 0px 0px no-repeat;
+    background: url(newbanner.jpg) 0px 0px no-repeat;
     background-size: cover;
 	 min-height: 80px;
 }
@@ -1295,12 +1295,12 @@ ul.nav1 {
     width: 64%;
 }
 .banner {
-    background: url(banner.jpg) -75px 0px no-repeat;
+    background: url(newbanner.jpg) -75px 0px no-repeat;
     background-size: cover;
     min-height: 500px;
 }
 .ban {
-    background: url(banner.jpg) 0px 0px no-repeat;
+    background: url(newbanner.jpg) 0px 0px no-repeat;
     background-size: cover;
 	min-height: 40px;
 }
@@ -1343,7 +1343,7 @@ h3.tittle, h3.tittle1, .footer-agileinfo h3 {
 }
 @media(max-width:667px){
 .banner {
-    background: url(banner.jpg) -133px 0px no-repeat;
+    background: url(newbanner.jpg) -133px 0px no-repeat;
     background-size: cover;	
 }
 .caption {
@@ -1384,7 +1384,7 @@ h3.tittle, h3.tittle1, .footer-agileinfo h3 {
 	margin: 7em 0;
 }
 .ban {
-    background: url(banner.jpg) 0px 0px no-repeat;
+    background: url(newbanner.jpg) 0px 0px no-repeat;
     background-size: cover;
     min-height: 50px !important;
 }
@@ -1573,7 +1573,7 @@ ul.nav1 {
     width: 100%;
 }
 .ban {
-    background: url(banner.jpg) 0px 0px no-repeat;
+    background: url(newbanner.jpg) 0px 0px no-repeat;
     background-size: cover;
     min-height: 80px !important;
 }
@@ -1593,7 +1593,7 @@ ul.nav1 {
     font-size: 1.5em;
 }
 .banner {
-    background: url(banner.jpg) -280px 0px no-repeat;
+    background: url(newbanner.jpg) -280px 0px no-repeat;
     background-size: cover;
 }
 h2.tittle {
@@ -1607,7 +1607,7 @@ h3.tittle, h3.tittle1, .footer-agileinfo h3 {
 
 }
 .ban {
-    background: url(banner.jpg) 0px 0px no-repeat;
+    background: url(newbanner.jpg) 0px 0px no-repeat;
     background-size: cover;
     min-height: 75px !important;
 }

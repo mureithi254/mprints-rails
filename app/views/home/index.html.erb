@@ -29,16 +29,14 @@
 		<div class="container">
 			<div class="header">
 				<div class="header-left">
-					<h1><a href="index.html">MPrints</a></h1>
+					<h1><a href="index.html">The MPrints</a></h1>
 				</div>
 				<!-- #push_sidebar -->
 				<div class="top-nav">
 					<span class="menu"><%= image_tag("menu.png" ,:alt => "") %></span>
 					<ul class="nav1">
 						<li class="active"><%= link_to 'Home',home_index_path %></li>
-						<li><%= link_to 'About',home_about_path %></li>
 						<li><%= link_to 'Services',home_services_path %></li>
-						<li><%= link_to 'Gallery',home_gallery_path %></li>
 						<li><%= link_to 'Contact',home_contact_path %></li>
 					</ul>
 					<div class="clearfix"> </div>
@@ -111,67 +109,93 @@
 				</div>
 			</div>
 			<!--welcome-->
-			<!--feature-->
-			<div class="feature-w3l">
-				<div class="container">
-					<h3 class="tittle">Our Features</h3>
-					<div class="feature-grids">
-						<div class="col-md-4 feature-grid">
-							<div class="icons">
-								<i class="glyphicon glyphicon-fire" aria-hidden="true"></i>
+		<!--about-->
+				<div class="about-w3agile">
+					<div class="container">
+						<h2 class="tittle">About Us</h2>
+						<div class="about-grids">
+							<div class="col-md-6 about-grid">
+								<%= image_tag("img1.jpg" ,:class=>"img-responsive", :alt=>"") %>
 							</div>
-								<h4>Design</h4>
-								<span></span>
-								<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
-						</div>
-						<div class="col-md-4 feature-grid">
-							<div class="icons">
-								<i class="glyphicon glyphicon-refresh" aria-hidden="true"></i>
+							<div class="col-md-6 about-grid">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingOne">
+											<h4 class="panel-title">
+												<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+													About The MPrints
+												</a>
+											</h4>
+										</div>
+										<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+											<p>Consectetur adipiscing elit. Aenean consequat lacus ac turpis ullamcorper, ut ornare libero euismod. Mauris urna eros, tempus id eros vitae, accumsan tempor ligula. Maecenas gravida felis vitae dignissim porta. Quisque blandit velit vitae eros varius.Lorem ipsum dolor sit amet Praesent justo dolor, lobortis quis, lobortis dignissim </p>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingTwo">
+											<h4 class="panel-title">
+												<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+												What we do
+												</a>
+											</h4>
+										</div>
+										<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+											<p>Consectetur adipiscing elit. Aenean consequat lacus ac turpis ullamcorper, ut ornare libero euismod. Mauris urna eros, tempus id eros vitae, accumsan tempor ligula. Maecenas gravida felis vitae dignissim porta. Quisque blandit velit vitae eros varius.Lorem ipsum dolor sit amet Praesent justo dolor, lobortis quis, lobortis dignissim </p>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingThree">
+											<h4 class="panel-title">
+												<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+												Our Goal
+												</a>
+											</h4>
+										</div>
+										<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+											<p>Consectetur adipiscing elit. Aenean consequat lacus ac turpis ullamcorper, ut ornare libero euismod. Mauris urna eros, tempus id eros vitae, accumsan tempor ligula. Maecenas gravida felis vitae dignissim porta. Quisque blandit velit vitae eros varius.Lorem ipsum dolor sit amet Praesent justo dolor, lobortis quis, lobortis dignissim </p>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingFour">
+											<h4 class="panel-title">
+												<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+											Where we are based
+												</a>
+											</h4>
+										</div>
+										<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+											<p>Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula Praesent justo dolor, lobortis quis, lobortis </p>
+										</div>
+									</div>
+								</div>
 							</div>
-								<h4>Color</h4>
-								<span></span>
-								<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
 						</div>
-						<div class="col-md-4 feature-grid">
-							<div class="icons">
-								<i class="glyphicon glyphicon-book" aria-hidden="true"></i>
-							</div>
-								<h4>Branding</h4>
-								<span></span>
-								<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="feature-grids">
-						<div class="col-md-4 feature-grid">
-							<div class="icons">
-								<i class="glyphicon glyphicon-user" aria-hidden="true"></i>
-							</div>
-								<h4>Expertise</h4>
-								<span></span>
-								<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
-						</div>
-						<div class="col-md-4 feature-grid">
-							<div class="icons">
-								<i class="glyphicon glyphicon-signal" aria-hidden="true"></i>
-							</div>
-								<h4>Support </h4>
-								<span></span>
-								<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
-						</div>
-						<div class="col-md-4 feature-grid">
-							<div class="icons">
-								<i class="glyphicon glyphicon-time" aria-hidden="true"></i>
-							</div>
-								<h4>Strategy</h4>
-								<span></span>
-								<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
-						</div>
-						<div class="clearfix"></div>
 					</div>
 				</div>
-			</div>
-			<!--feature-->
+			<!--about-->
+				<!--why-->
+				<div class="why-w3l">
+					<div class="container">
+					<h3 class="tittle">Why Choose Us</h3>
+						<div class="why-grids">
+							<div class="col-md-6 why-grid">
+								<iframe src="https://player.vimeo.com/video/124902958"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+							</div>
+							<div class="col-md-6 why-grid">
+								<p>Lorem ipsum dolor sit amet consectetuer adipiscing elit Suspendisse et justo Praesent mattis commodo augu Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est. Curabitur eget orci. Cras laoreet ligula. Etiam sit amet dolor. Vestibulum ante ipsum primis in faucibus</p>
+								<ul>
+									<li><i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>Sed massa tellus aliquam rhoncus venenatis </li>
+									<li><i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>Consectetur adipiscing elit. Aenean consequat</li>
+									<li><i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>Fusce euismod consequat ante. Lorem ipsum </li>
+									<li><i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>Magna eget scelerisque metus massa in neque </li>
+									<li><i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>Sed massa tellus aliquam rhoncus venenatis </li>
+								</ul>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+			<!--why-->
 			<!--advantage-->
 				<div class="what-w3ls">
 					<div class="container">

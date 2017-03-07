@@ -1,57 +1,28 @@
 <!--header-->
-	<div class="banner ban">
-		<div class="container">
-			<div class="header">
-				<div class="header-left">
-					<h1><a href="index.html">The MPrints </a></h1>
-				</div>
-				<!-- #push_sidebar -->
-				<div class="top-nav">
-					<span class="menu"><%= image_tag("menu.png", :alt=>"") %></span>
-					<ul class="nav1">
-						<li class="active"><%= link_to 'Home',home_index_path %></li>
-						<li><%= link_to 'Services',home_services_path %></li>
-						<li><%= link_to 'Contact',home_contact_path %></li>
-					</ul>
-					<div class="clearfix"> </div>
-					<!-- script-for-menu -->
-					 <script>
-					   $( "span.menu" ).click(function() {
-						 $( "ul.nav1" ).slideToggle( 300, function() {
-						 // Animation complete.
-						  });
-						 });
-					</script>
-					<!-- /script-for-menu -->
-				</div>
-				<!-- /#push_sidebar -->
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!--header-->
+   <%= render 'layouts/renders/nav' %>
+<!--header-->
 	<!--content-->
 		<div class="content">
 				<!--feature-->
 			<div class="feature-w3l">
 				<div class="container">
-					<h3 class="tittle">Our Features</h3>
+					<h3 class="tittle">Our Services</h3>
 					<div class="feature-grids">
 						<div class="col-md-4 feature-grid">
 							<div class="icons">
 								<i class="glyphicon glyphicon-fire" aria-hidden="true"></i>
 							</div>
-								<h4>Design</h4>
+								<h4>Designing:</h4>
 								<span></span>
-								<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+								<p>Logos, posters, banners, Announcements, UI graphics.</p>
 						</div>
 						<div class="col-md-4 feature-grid">
 							<div class="icons">
-								<i class="glyphicon glyphicon-refresh" aria-hidden="true"></i>
+								<i class="glyphicon glyphicon-folder-open" aria-hidden="true"></i>
 							</div>
-								<h4>Color</h4>
+								<h4>Printing:</h4>
 								<span></span>
-								<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+								<p>Stationery, posters, banners, stickers, pamphlets, eulogies, announcements, custom printing.</p>
 						</div>
 						<div class="col-md-4 feature-grid">
 							<div class="icons">
@@ -59,34 +30,26 @@
 							</div>
 								<h4>Branding</h4>
 								<span></span>
-								<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+								<p>Caps, T-shirts, sweaters, jampers, school uniforms, clothing, wristbands, tags, badges.</p>
 						</div>
 						<div class="clearfix"></div>
 					</div>
 					<div class="feature-grids">
 						<div class="col-md-4 feature-grid">
 							<div class="icons">
-								<i class="glyphicon glyphicon-user" aria-hidden="true"></i>
+								<i class="glyphicon glyphicon-camera" aria-hidden="true"></i>
 							</div>
-								<h4>Expertise</h4>
+								<h4>Photography</h4>
 								<span></span>
-								<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+								<p>Indoor, outdoor, studio, events, parties, weddings.</p>
 						</div>
 						<div class="col-md-4 feature-grid">
 							<div class="icons">
-								<i class="glyphicon glyphicon-signal" aria-hidden="true"></i>
+								<i class="glyphicon glyphicon-facetime-video" aria-hidden="true"></i>
 							</div>
-								<h4>Support </h4>
+								<h4>Videography</h4>
 								<span></span>
-								<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
-						</div>
-						<div class="col-md-4 feature-grid">
-							<div class="icons">
-								<i class="glyphicon glyphicon-time" aria-hidden="true"></i>
-							</div>
-								<h4>Strategy</h4>
-								<span></span>
-								<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+								<p>Parties, events, weddings, albums.</p>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -94,7 +57,7 @@
 			</div
 			<div class="advantages-w3l">
 				<div class="container">
-				<h3 class="tittle">Additional Services</h3>
+				<h3 class="tittle">Free Services/Promotions</h3>
 					<div class="advantages-grids">
 						<div class="col-md-6 advantages-grid">
 							<div class="ser-img">
@@ -174,39 +137,3 @@
 			</div>
 		</div>		
 		<!--content-->
-			<!--footer-->
-				<div class="footer-agileinfo">
-					<div class="container">
-						<h3>Get In Touch</h3>
-						<p class="para">We love people and we value your feedback at Mprints.</p>
-						<div class="footer-grids">
-							<div class="col-md-6 footer-grid">
-								<div class="col-sm-2 footer-left">
-									<i class="glyphicon glyphicon-pencil" aria-hidden="true"></i>
-								</div>
-								<div class="col-sm-10 footer-right">
-									<h4>Information</h4>
-									<p>We spare no expense to ensure everything runs smoothly.We color your life.</p>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="col-md-6 footer-grid">
-								<div class="col-sm-2 footer-left">
-									<i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
-								</div>
-								<div class="col-sm-10 footer-right">
-									<h4>Newsletter</h4>
-									<p>Sign-Up to our newsletters to receive daily or trending services at MPrints.</p>
-									<form action="#" method="post">
-										<input type="text" name="Your email" value="Your email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your email';}" required="">
-										<input type="submit" value="Subscribe">
-									</form>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						<p class="copy-right">&copy; 2017 MPrints . All rights reserved | Design by <a href="#">Tribian-Tech Ltd</a></p>
-					</div>
-				</div>
-				<!--footer-->

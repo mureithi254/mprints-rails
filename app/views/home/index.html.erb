@@ -29,10 +29,10 @@
 		<div class="container">
 			<div class="header">
 				<div class="header-left">
-					<h1><a href="index.html">The MPrints</a></h1>
+					<h1><%= link_to 'The MPrints',home_index_path %></h1>
 				</div>
 				<!-- #push_sidebar -->
-				<div class="top-nav">
+				   <div class="top-nav">
 					<span class="menu"><%= image_tag("menu.png" ,:alt => "") %></span>
 					<ul class="nav1">
 						<li class="active"><%= link_to 'Home',home_index_path %></li>
@@ -59,20 +59,20 @@
 						<ul class="rslides" id="slider">
 							<li>	 
 								<div class="caption">
-									<h3>MPrints Motto</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipi est.Register NowSollicitudin feugiat blanditQuisque feugiat.Dui euismod massa ut sem fringilla blandit ipsum.Register Now</p>
+									<h3>The MPrints Motto</h3>
+									<p>Best Service Possible</p>
 								</div>
 							</li>
 							 <li>	 
 								<div class="caption">
-									<h3>MPrints Mission</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipi est.Register NowSollicitudin feugiat blanditQuisque feugiat.Dui euismod massa ut sem fringilla blandit ipsum.Register Now</p>
+									<h3>The MPrints Mission</h3>
+									<p>Your satisfaction and best experience in print and press services is all our mission is.</p>
 								</div>
 							</li>
 							<li>	 
 								<div class="caption">
-									<h3>MPrints Vision</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipi est.Register NowSollicitudin feugiat blanditQuisque feugiat.Dui euismod massa ut sem fringilla blandit ipsum.Register Now</p>
+									<h3>The MPrints Vision</h3>
+									<p>To forever be yours, making your life colorful</p>
 								</div>
 							</li>
 						</ul>
@@ -101,7 +101,7 @@
 											</h4>
 										</div>
 										<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-											<p>Consectetur adipiscing elit. Aenean consequat lacus ac turpis ullamcorper, ut ornare libero euismod. Mauris urna eros, tempus id eros vitae, accumsan tempor ligula. Maecenas gravida felis vitae dignissim porta. Quisque blandit velit vitae eros varius.Lorem ipsum dolor sit amet Praesent justo dolor, lobortis quis, lobortis dignissim </p>
+											<p>The MPrints strives to be a one-stop-shop for all your print and press needs. The very first and only rule on our corporate constitution is "best quality and customer experience". If you feel you weren't given the best, please drop the boss an email at the boss B themprints.com.In such a case we guarantee you a 100% moneyback or a total redo of the service.</p>
 										</div>
 									</div>
 									<div class="panel panel-default">
@@ -155,13 +155,12 @@
 								<iframe src="https://player.vimeo.com/video/124902958"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 							</div>
 							<div class="col-md-6 why-grid">
-								<p>Lorem ipsum dolor sit amet consectetuer adipiscing elit Suspendisse et justo Praesent mattis commodo augu Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est. Curabitur eget orci. Cras laoreet ligula. Etiam sit amet dolor. Vestibulum ante ipsum primis in faucibus</p>
+								<p>Striving to always ensure that our clients get the best service possible is not always easy,and most of the frequently asked questions asked by our esteemed clients is , why should we choose you?.And we say:</p>
 								<ul>
-									<li><i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>Sed massa tellus aliquam rhoncus venenatis </li>
-									<li><i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>Consectetur adipiscing elit. Aenean consequat</li>
-									<li><i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>Fusce euismod consequat ante. Lorem ipsum </li>
-									<li><i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>Magna eget scelerisque metus massa in neque </li>
-									<li><i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>Sed massa tellus aliquam rhoncus venenatis </li>
+									<li><i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>100% satisfaction guaranteed </li>
+									<li><i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>100% money back guarantee if the above isn't achieved</li>
+									<li><i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>We come to wherever you are just when you need us there</li>
+									<li><i class="glyphicon glyphicon-share-alt" aria-hidden="true"></i>Free delivery for bulk orders </li>
 								</ul>
 							</div>
 							<div class="clearfix"></div>
@@ -169,39 +168,3 @@
 					</div>
 				</div>
 			<!--why-->
-			<!--footer-->
-				<div class="footer-agileinfo">
-					<div class="container">
-						<h3>Get In Touch</h3>
-						<p class="para">We love people and we value your feedback at Mprints.</p>
-						<div class="footer-grids">
-							<div class="col-md-6 footer-grid">
-								<div class="col-sm-2 footer-left">
-									<i class="glyphicon glyphicon-pencil" aria-hidden="true"></i>
-								</div>
-								<div class="col-sm-10 footer-right">
-									<h4>Information</h4>
-									<p>We spare no expense to ensure everything runs smoothly.We color your life.</p>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="col-md-6 footer-grid">
-								<div class="col-sm-2 footer-left">
-									<i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
-								</div>
-								<div class="col-sm-10 footer-right">
-									<h4>Newsletter</h4>
-									<p>Sign-Up to our newsletters to receive daily or trending services at MPrints.</p>
-									<form action="#" method="post">
-										<input type="text" name="Your email" value="Your email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your email';}" required="">
-										<input type="submit" value="Subscribe">
-									</form>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						<p class="copy-right">&copy; 2017 MPrints . All rights reserved | Design by <a href="#">Tribian-Tech Ltd</a></p>
-					</div>
-				</div>
-				<!--footer-->

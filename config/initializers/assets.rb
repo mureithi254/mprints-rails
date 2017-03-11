@@ -9,6 +9,9 @@ Rails.application.config.assets.precompile += %w( owl.carousel.css )
 Rails.application.config.assets.precompile += %w( style.css )
 Rails.application.config.assets.precompile += %w( chocolat.css )
 Rails.application.config.assets.precompile += %w( flexslider.css )
+Rails.application.config.assets.precompile += %w( font-awesome.css )
+Rails.application.config.assets.precompile += %w( bootstrap.css)
+Rails.application.config.assets.precompile += %w( swipebox.css)
 
    #Additional js assets
 Rails.application.config.assets.precompile += %w( jquery.chocolat.js )
